@@ -1,0 +1,18 @@
+%TestML 1.0
+
+Title = 'Sample TestML Test';
+Plan = 9;
+
+*input.transform == *expect;
+
+=== Test One
+--- input
+xxx
+--- expect
+yyy
+
+=== Test Two
+--- input
+XXX
+--- expect
+YYY
